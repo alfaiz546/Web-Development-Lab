@@ -1,0 +1,36 @@
+body { 
+    font-family: Arial; 
+    margin: 20px; 
+}
+.intro { 
+    padding: 15px 0; 
+}
+.project-grid { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+}
+.tile { 
+    background: #eeeeff; 
+    border: 1px solid #cccccc; 
+    padding: 20px; 
+    min-height: 100px; 
+}
+.tile-large { 
+    grid-column: span 2; 
+}
+.tile-tall { 
+    grid-row: span 2; 
+}
+.tile-wide { 
+    grid-column: span 2; 
+}
+@media (max-width: 600px) { 
+    .project-grid { 
+        grid-template-columns: 1fr; 
+    } 
+    .tile-large, .tile-wide, .tile-tall { 
+        grid-column: auto; 
+        grid-row: auto; 
+    } 
+}

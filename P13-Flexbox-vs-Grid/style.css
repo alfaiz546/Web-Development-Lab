@@ -1,0 +1,31 @@
+body { 
+    font-family: Arial; 
+    margin: 20px; 
+}
+.card { 
+    border: 1px solid #cccccc; 
+    padding: 15px; 
+    margin-bottom: 15px; 
+}
+.flex-demo { 
+    display: flex; 
+    gap: 10px; 
+    background: #eeeeff; 
+    padding: 10px; 
+    flex-wrap: wrap; 
+}
+.flex-demo span, .grid-demo span { 
+    background: white; 
+    border: 1px solid #999999; 
+    padding: 12px; 
+}
+.grid-demo { 
+    display: grid; 
+    grid-template-columns: 1fr 2fr; 
+    gap: 10px; 
+    background: #eeeeff; 
+    padding: 10px; 
+}
+.grid-demo span:first-child, .grid-demo span:last-child { 
+    grid-column: 1 / -1; 
+}

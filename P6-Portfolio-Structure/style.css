@@ -1,0 +1,8 @@
+body { font-family: Arial; margin: 20px; }
+.site-header { background: #eeeeee; padding: 10px; position: sticky; top: 0; }
+.header-row { display: flex; justify-content: space-between; align-items: center; }
+nav ul { display: flex; gap: 15px; list-style: none; }
+.hero { padding: 25px 0; }
+.three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.card { border: 1px solid #cccccc; padding: 12px; }
+@media (max-width: 600px) { .header-row, nav ul { flex-direction: column; } .three { grid-template-columns: 1fr; } }

@@ -1,0 +1,5 @@
+:root { --main-color: #ddddff; --text-color: #222222; --space: 15px; }
+body { font-family: Arial; color: var(--text-color); margin: 20px; }
+.card { border: 1px solid #cccccc; padding: var(--space); margin-bottom: 15px; }
+.swatches { display: flex; gap: 10px; }
+.swatch { padding: 20px; background: var(--main-color); }

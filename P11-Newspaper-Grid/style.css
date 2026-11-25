@@ -1,0 +1,28 @@
+body { 
+    font-family: Georgia, serif; 
+    margin: 20px; 
+}
+.masthead { 
+    text-align: center; 
+    background: #eeeeee; 
+    padding: 15px; 
+}
+.news-layout { 
+    display: grid; 
+    grid-template-columns: 2fr 1fr 1fr; 
+    gap: 15px; 
+}
+.lead, .side { 
+    border: 1px solid #cccccc; 
+    padding: 12px; 
+}
+.illustration { 
+    background: #ddddff; 
+    padding: 30px; 
+    text-align: center; 
+}
+@media (max-width: 650px) { 
+    .news-layout { 
+        grid-template-columns: 1fr; 
+    } 
+}

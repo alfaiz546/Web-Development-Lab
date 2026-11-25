@@ -1,0 +1,33 @@
+/* Simple CSS used in the lab */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.5;
+  background: #ffffff;
+  color: #222222;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+header, footer {
+  padding: 10px;
+}
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+a {
+  color: blue;
+}
+section, article, .card {
+  margin: 15px 0;
+  padding: 12px;
+  border: 1px solid #cccccc;
+}
+.grid {
+  display: grid;
+  gap: 10px;
+}
